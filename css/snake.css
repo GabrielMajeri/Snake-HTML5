@@ -1,0 +1,59 @@
+canvas#snake-canvas
+{
+	border: 1px solid black;
+	margin: 0;
+	display: inline-block;
+	float: left;
+}
+
+aside
+{
+	float:left;
+	border: 1px solid black;
+}
+
+aside .kbdbutton
+{
+	text-align: center;
+	width: 2em;
+	height: 2em;
+	margin: 0.1em 0.1em 0.1em 0.1em;
+	border: 1px solid lightgray;
+	border-radius: 2px;
+	float:left;
+	font-size:200%;
+}
+
+aside #wkey
+{
+	border-radius: 10px 10px 0 0;
+	float:none;
+	clear:both;
+	margin: 0px auto 0px auto;
+}
+
+aside #akey
+{
+	border-radius: 10px 0 0 10px;
+}
+
+aside #skey
+{
+	border-radius: 0;
+}
+
+aside #dkey
+{
+	border-radius: 0 10px 10px 0;
+}
+
+.selected-key
+{
+	color:red;
+	background-color: yellow;
+}
+
+footer
+{
+	clear: both;
+}
